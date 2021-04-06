@@ -13,8 +13,9 @@ public class TestModel {
         return id;
     }
 
-    public void setId(Integer id) {
+    public Integer setId(Integer id) {
         this.id = id;
+        return this.id;
     }
 
     public String getName() {
